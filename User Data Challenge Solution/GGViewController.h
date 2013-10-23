@@ -10,4 +10,6 @@
 
 @interface GGViewController : UIViewController
 
+@property (strong, nonatomic) NSArray *users;
+
 @end

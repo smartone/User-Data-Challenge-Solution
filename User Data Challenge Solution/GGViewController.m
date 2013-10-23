@@ -7,6 +7,7 @@
 //
 
 #import "GGViewController.h"
+#import "GGUserData.h"
 
 @interface GGViewController ()
 
@@ -14,11 +15,19 @@
 
 @implementation GGViewController
 
-- (void)viewDidLoad
+- (void)viewDidLoad 
 {
     [super viewDidLoad];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    self.users = [GGUserData users];
+    NSLog(@"%@", self.users);
+
+    }
+    
+
 
 - (void)didReceiveMemoryWarning
 {

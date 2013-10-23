@@ -21,6 +21,11 @@
 		4E702EDF1817296F00C99719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E702EC11817296F00C99719 /* UIKit.framework */; };
 		4E702EE71817296F00C99719 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E702EE51817296F00C99719 /* InfoPlist.strings */; };
 		4E702EE91817296F00C99719 /* User_Data_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E702EE81817296F00C99719 /* User_Data_Challenge_SolutionTests.m */; };
+		4E702EF718172A4400C99719 /* GGUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E702EF618172A4400C99719 /* GGUserData.m */; };
+		4E702EFC18172BFD00C99719 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E702EF818172BFD00C99719 /* person1.jpeg */; };
+		4E702EFD18172BFD00C99719 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E702EF918172BFD00C99719 /* person2.jpeg */; };
+		4E702EFE18172BFD00C99719 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4E702EFA18172BFD00C99719 /* person3.jpg */; };
+		4E702EFF18172BFD00C99719 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4E702EFB18172BFD00C99719 /* person4.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,12 @@
 		4E702EE41817296F00C99719 /* User Data Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		4E702EE61817296F00C99719 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E702EE81817296F00C99719 /* User_Data_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		4E702EF518172A4400C99719 /* GGUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGUserData.h; sourceTree = "<group>"; };
+		4E702EF618172A4400C99719 /* GGUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGUserData.m; sourceTree = "<group>"; };
+		4E702EF818172BFD00C99719 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		4E702EF918172BFD00C99719 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		4E702EFA18172BFD00C99719 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		4E702EFB18172BFD00C99719 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E64041B18182173005D59FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E702EF518172A4400C99719 /* GGUserData.h */,
+				4E702EF618172A4400C99719 /* GGUserData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		4E702EB11817296F00C99719 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +137,7 @@
 				4E702ECF1817296F00C99719 /* Main.storyboard */,
 				4E702ED21817296F00C99719 /* GGViewController.h */,
 				4E702ED31817296F00C99719 /* GGViewController.m */,
+				4E64041B18182173005D59FE /* Model */,
 				4E702ED51817296F00C99719 /* Images.xcassets */,
 				4E702EC41817296F00C99719 /* Supporting Files */,
 			);
@@ -126,6 +147,10 @@
 		4E702EC41817296F00C99719 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E702EF818172BFD00C99719 /* person1.jpeg */,
+				4E702EF918172BFD00C99719 /* person2.jpeg */,
+				4E702EFA18172BFD00C99719 /* person3.jpg */,
+				4E702EFB18172BFD00C99719 /* person4.jpeg */,
 				4E702EC51817296F00C99719 /* User Data Challenge Solution-Info.plist */,
 				4E702EC61817296F00C99719 /* InfoPlist.strings */,
 				4E702EC91817296F00C99719 /* main.m */,
@@ -229,9 +254,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E702EFE18172BFD00C99719 /* person3.jpg in Resources */,
+				4E702EFC18172BFD00C99719 /* person1.jpeg in Resources */,
 				4E702ED61817296F00C99719 /* Images.xcassets in Resources */,
 				4E702EC81817296F00C99719 /* InfoPlist.strings in Resources */,
+				4E702EFF18172BFD00C99719 /* person4.jpeg in Resources */,
 				4E702ED11817296F00C99719 /* Main.storyboard in Resources */,
+				4E702EFD18172BFD00C99719 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 			files = (
 				4E702ECE1817296F00C99719 /* GGAppDelegate.m in Sources */,
 				4E702ED41817296F00C99719 /* GGViewController.m in Sources */,
+				4E702EF718172A4400C99719 /* GGUserData.m in Sources */,
 				4E702ECA1817296F00C99719 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +491,7 @@
 				4E702EEE1817296F00C99719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E702EEF1817296F00C99719 /* Build configuration list for PBXNativeTarget "User Data Challenge SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +500,7 @@
 				4E702EF11817296F00C99719 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
